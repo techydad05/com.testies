@@ -4,3 +4,4 @@ export const getClient = () => {
     console.log('working', Medusa)
 }
 
+getClient();

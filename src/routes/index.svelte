@@ -4,8 +4,7 @@
 
 <script>
 	import Counter from '$lib/Counter.svelte';
-	import {getClient} from "$lib/Medusa.js";
-	getClient();
+	import "$lib/medusa-client.js";
 </script>
 
 <svelte:head>
