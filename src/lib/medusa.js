@@ -1,4 +1,4 @@
-import Medusa from "@medusajs/medusa-js";
+import * as Medusa from "@medusajs/medusa-js";
 import { onMount } from "svelte";
 
 export const MedusaClient = () => {
